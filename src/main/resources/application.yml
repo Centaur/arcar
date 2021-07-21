@@ -1,0 +1,13 @@
+micronaut:
+  application:
+    name: arcar
+  session:
+    http:
+      cookie: true
+      header: true
+datasources:
+  default:
+    url: jdbc:postgresql://localhost:5432/postgres
+    driverClassName: org.postgresql.Driver
+    username: postgres
+    password: ''
